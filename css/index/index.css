@@ -1,0 +1,226 @@
+/*Importanndo fuentes*/
+@font-face {
+    font-family: FlagShip;
+    src: url("../../Fuentes/FlagShip/Flagship Slab - Regular.otf");
+}
+
+/*Fin fuentes*/
+  *{
+		padding: 0px;
+		margin: 0px;
+		//font-family: FlagShip;
+	}
+.bodyBackGround{
+
+	background-image: url("../../imagenes/symphony.png");
+}
+
+/*remueve el border radius del nav principal*/
+.resetMainNav{
+	margin-bottom: 5px;
+	border-color: transparent;
+	border-bottom-color: white;
+	background-color: #161717;
+}
+@media (min-width: 768px) {
+  .resetMainNav{
+    border-radius: 0px;
+  }
+}
+
+/*Sidebar inicio*/
+
+.sidebarMenu{
+	background-color: #222;
+	padding-right: 1px;
+	border-radius: 10px;
+	
+}
+/*Panel de control*/
+.circleBase {
+    border-radius: 50%;
+   
+}
+.imageProfile{
+	margin-right: auto;
+	margin-left: auto;
+    width: 150px;
+    padding: 10px;
+    height: 150px;
+    background-image: url('../../imagenes/blankImage.png');
+	background-size: cover;
+}
+.controlPanel{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 4%;
+	width: 95%;
+}
+.controlPanel>p{
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	text-align: center;
+	color: white;
+}
+.controlPanel>button{
+	margin-right: auto;
+	margin-left: auto;
+	width: 45%;
+	text-align: center;
+
+}
+
+/*Fin panel de control*/
+
+
+/*Tomar el 100% del a en li*/
+.sidebarMenu>div,ul{
+padding-left: 20px;
+font-family: FlagShip;
+}
+.sidebarMenu>ul>li> a`{
+	color: #DEDEDE;
+	background-color: #161717;
+	font-size: 16px;
+}
+.sidebarMenu>ul>li{
+	background-color: #161717;
+	border-bottom: solid 1px white;
+}
+.sidebarMenu>ul>li>a{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+	width: 85%;
+	margin-right: 0px;
+}
+.sidebarMenu>ul>li>span{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+	width: 10%;
+	color: #337ab7;
+	text-align: center;
+}
+.sidebarMenu>ul>li>p,span{
+	font-size: 16px;
+	text-align: center;
+}
+
+.both:hover a{
+	color: white;
+	background-color: black;
+}
+.both:hover span{
+	color: white;
+}
+.both:hover{
+background-color: black;
+
+}
+
+.sidebarMenu>ul>li>a:hover{
+	color: white;
+	background-color: black;
+}
+.sidebarMenu>ul>li:last-child{
+
+	margin-bottom: 6px;
+}
+/*Acaba perzo de lista de sidebarmenu */
+/*Correciones paneles*/
+
+.correcionPaneles{
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	.correcionPaneles2{
+	
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+.correcionRows{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.correcionPaneles th{
+	text-align: center;
+}
+/*Fin de Correciones paneles*/
+
+.btn-is-disabled {
+  pointer-events: none; /* Disables the button completely. Better than just cursor: default; */
+  opacity(0.7);
+}
+ .tLetra{
+ 	font-size: 14px;
+ }
+ /*Pruebaaaaaaaaaaaa*/
+ li:hover {
+
+}
+ /*Corrige el boton de cerrar de paneles*/
+ .correcionBoton{
+ font-size: 31px; 
+ opacity: .8; 
+ color: white;
+ }
+.hideElement {
+   
+    display: none;
+}
+.visualizacion{
+	border-style: none;
+	background-color: #F5A74E;
+	
+}
+.visualizacion:FOCUS{
+	border:0;
+	outline:none;
+	box-shadow:none;
+}
+@media screen and (max-width: 1300px) {
+   table  td,table  tr{
+    display: block;
+    with: 100%;
+    }
+    #banner th{
+    display: block;
+    with: 100%;
+    }
+}
+.resetDisplay{
+	display: inline-block;
+	width: 50%;
+}
+.setDisplay{
+	display: block;
+	
+}
+hr {
+	    border-color: #5bc0de;
+	    border-width: 2px;
+}
+.corrigeEsquinas{
+	
+	text-align: left;
+	margin-top: 20px;
+}
+p.test {
+     width: 11em; 
+   
+    word-wrap: break-word;
+}
+#sello{
+	height: 120px;
+	width: 80%;
+	border: 3px groove rgb(0, 51, 102);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}

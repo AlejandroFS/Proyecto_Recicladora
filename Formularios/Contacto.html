@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Formularios Usuariós</title>
+<link rel="stylesheet" type="text/css"
+	href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/index/index.css">
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+</head>
+<body>
+<div class="row">
+		<div class="col-sm-12 container panel panel-primary">
+
+
+
+			<form id="formRegistro" action="#" class="controlPanel">
+				
+				<h3>Formulario de contacto</h3>
+				<div class="form-group resetDisplay">
+					<label >Asunto:</label> 
+					<input
+						type="text" class="form-control" maxlength="30"
+						placeholder="Ingrese el asunto de su consulta" autofocus
+						required name="asunto">
+				</div>
+				<hr>
+				<div class="form-group resetDisplay">
+					<label>Email:</label> 
+					<input
+						type="email" class="form-control " maxlength="30"
+						placeholder="Ingrese algun email de contacto"
+						required name="email">
+				</div>
+				<hr>
+				<div class="form-group">
+					<label >Comentarios:</label> 
+					<textarea class="form-control" style="resize:none" rows="5" id="comment"></textarea>
+				</div>
+				<button type="submit" id="botonAlta" class="btn btn-default">Enviar consulta</button>
+				
+
+			</form>
+
+
+
+
+
+		</div>
+		</div>
+</body>
+</html>
